@@ -10,7 +10,7 @@ support structure tomography, submitted for Textile Science Engineering (2023)
 ```
 pip install -r requirements.txt
 ```
-#### 3. Open the downloaded folder in VSCode (Main meny->"File"->"Open Folder"). 
+#### 3. Open the downloaded folder in VSCode (Main menu->"File"->"Open Folder"). 
 
 #### 4. Modify  mesh filename,  initial orientation and angle interval(=theta_YP) in "tomo_TSE2023.py".  Run the "tomo_TSE2023.py" (shortcut key, F5)
 
