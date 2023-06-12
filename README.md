@@ -3,7 +3,10 @@ support structure tomography, submitted for Textile Science Engineering (2023)
 
 #### 1. Download all the files of this repository to your PC ("Code"->"Download Zip")
 
-#### 2. Install Visual Studio Code, Python 3 (preferably Version 3.7.8), and the Python packages using "requirements.txt".
+#### 2. Install software
+### 1) Install Visual Studio Code (VSCode)
+### 2) Install Python 3 (preferably Version 3.7.8)
+### 3) Install Python packages using "requirements.txt".
 ```
 pip install -r requirements.txt
 ```
