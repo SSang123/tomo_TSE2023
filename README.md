@@ -14,16 +14,7 @@ pip install -r requirements.txt
 
 #### 4. Modify  mesh filename,  initial orientation and angle interval(=theta_YP) in "tomo_TSE2023.py".  Run the "tomo_TSE2023.py" (shortcut key, F5)
 
-#####    (1) To see the support structure information for the given (yaw, pitch, roll), set "theta_YP" as zero.
-```
-#=========================================================================================
-DataSet= [( 'MeshData\\(4)Bunny_69k.stl', 247, 46, 0)
-theta_YP = 0
-#=========================================================================================
-```
-![TomoNV_logo](./pics/fig2.jpg)
-
-#####    (2) To search optimal orientation, input "theta_yp" value as "360 / N " (where N = integer).
+#####    (1) To search optimal orientation, input "theta_yp" value as "360 / N " (where N = integer).
 ```
 #=========================================================================================
 DataSet= [( 'MeshData\\(4)Bunny_69k.stl', 0, 0, 0)
@@ -31,3 +22,12 @@ theta_YP = 30
 #=========================================================================================
 ```
 ![TomoNV_logo](./pics/fig1.jpg)
+
+#####    (2) To see the support structure information for the given (yaw, pitch, roll), set "theta_YP" as zero.
+```
+#=========================================================================================
+DataSet= [( 'MeshData\\(4)Bunny_69k.stl', 247, 46, 0)
+theta_YP = 0
+#=========================================================================================
+```
+![TomoNV_logo](./pics/fig2.jpg)
