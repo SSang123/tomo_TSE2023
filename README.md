@@ -21,7 +21,7 @@ DataSet= [( 'MeshData\\(4)Bunny_69k.stl', 247, 46, 0)
 theta_YP = 0
 #=========================================================================================
 ```
-![TomoNV_logo](./img/fig2.jpg)
+![TomoNV_logo](./pics/fig2.jpg)
 
 #####    (2) To search optimal orientation, input "theta_yp" value as "360 / N " (where N = integer).
 ```
@@ -30,4 +30,4 @@ DataSet= [( 'MeshData\\(4)Bunny_69k.stl', 0, 0, 0)
 theta_YP = 30
 #=========================================================================================
 ```
-![TomoNV_logo](./img/fig1.jpg)
+![TomoNV_logo](./pics/fig1.jpg)
