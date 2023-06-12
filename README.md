@@ -26,7 +26,7 @@ theta_YP = 30
 #####    (2) To see the support structure information for the given (yaw, pitch, roll), set "theta_YP" as zero.
 ```
 #=========================================================================================
-DataSet= [( 'MeshData\\(4)Bunny_69k.stl', 247, 46, 0)
+DataSet= [( 'MeshData\\(4)Bunny_69k.stl', 60, 120, 0) #1st optimal of Bunny
 theta_YP = 0
 #=========================================================================================
 ```
