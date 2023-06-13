@@ -7,6 +7,8 @@ support structure tomography, modified version submitted for Textile Science Eng
 #####    (1) Install Visual Studio Code (VSCode)
 #####    (2) Install Python 3 (preferably Version 3.7.8)
 #####    (3) Install Python packages using "requirements.txt".
+#####    (4) Install VC++ 2019 Redistributable package
+( https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170 ).
 ```
 pip install -r requirements.txt
 ```
