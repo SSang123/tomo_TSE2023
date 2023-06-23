@@ -10,7 +10,7 @@ support structure tomography, modified version submitted for Textile Science Eng
 ```
 pip install -r requirements.txt
 ```
-#####    (4) Install VC++ 2019 Redistributable package
+#####    (4) Install VC++ 2015, 2017, 2019, and 2022 Redistributable package
 ( https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170 ).
 
 #### 3. Open the downloaded folder in VSCode (Main menu->"File"->"Open Folder"). 
