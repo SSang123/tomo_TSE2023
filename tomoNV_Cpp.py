@@ -90,7 +90,8 @@ class tomoNV_Cpp:
     if(self.bVerbose):
       print( Fore.BLUE, 'Mo3D=    ', Style.RESET_ALL, FStr(self.Mo3D.reshape(     self.nYPR_Intervals,self.nYPR_Intervals) , precision=2)) 
       print( Fore.BLUE, 'Mss3D=   ', Style.RESET_ALL, FStr(self.Mss3D.reshape(    self.nYPR_Intervals,self.nYPR_Intervals) , precision=2)) 
-      print( Fore.BLUE, 'Mtotal3D=', Style.RESET_ALL, FStr(self.Mtotal3D.reshape( self.nYPR_Intervals,self.nYPR_Intervals) , precision=2)) 
+      #print( Fore.BLUE, 'Mtotal3D=', Style.RESET_ALL, FStr(self.Mtotal3D.reshape( self.nYPR_Intervals,self.nYPR_Intervals) , precision=2)) 
+      print( Fore.BLUE, 'Mtotal3D=', Style.RESET_ALL, self.Mtotal3D.reshape( 1, self.nYPR_Intervals *self.nYPR_Intervals))
       # np.savetxt('Mo.txt',  Mo3D.reshape( self.nYPR_Intervals,self.nYPR_Intervals), delimiter='\t')
       np.savetxt('Mss.txt', self.Mss3D.reshape(self.nYPR_Intervals,self.nYPR_Intervals), delimiter='\t')
 
