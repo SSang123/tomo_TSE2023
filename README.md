@@ -1,7 +1,7 @@
 # tomo_TSE2023
 support structure tomography, modified version submitted for Textile Science Engineering (2023)
 
-#### 1. Download all the files of this repository to your PC ("Code"->"Download Zip")
+#### 1. Download and upzip all the files of this repository to your PC ("Code"->"Download Zip")
 
 #### 2. Install software
 #####    (1) Install Visual Studio Code (VSCode)
