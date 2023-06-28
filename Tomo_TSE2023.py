@@ -61,9 +61,9 @@ for Data in DataSet:
     tomoNV_Cpp1.theta_c = toRadian(60) #filament critical angle for support structure
 
     #bed structure parameter
-    #tomoNV_Cpp1.BedType = ( enumBedType.ebtSkirt, 2, 5, 1)
-    #tomoNV_Cpp1.BedType = ( enumBedType.ebtBrim, 2.5, 5, 1)
-    tomoNV_Cpp1.BedType = ( enumBedType.ebtRaft, 2, 5, 1.)
+    #tomoNV_Cpp1.BedType = ( enumBedType.ebtSkirt, 3, 3+0.8, 0.2)# 스커트 라인 간격, 스커트 라인 간격 + 스커트라인 수 *필라멘트 두께 , 바닥 레이어 높이
+    #tomoNV_Cpp1.BedType = ( enumBedType.ebtBrim, 0, 10 * 0.4, 0.2)#0, 브림 라인  수 * 서피스 레이어 두께  , 바닥 레이어 높이
+    tomoNV_Cpp1.BedType = ( enumBedType.ebtRaft, 0, 2, 0.3 + 0.27 + 2 * 0.2)# 0, 래프트 크기(mm), 베이스 두께 + 인터페이스 두께  + 서피스 레이어 수 * 서피스 레이어 두께
     
     #-----------------------------------------------
     # (4) call C++ engine (TomoNV_Win64.dll)
